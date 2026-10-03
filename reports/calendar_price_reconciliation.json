@@ -1,0 +1,136 @@
+{
+  "official_source": "https://www.niftyindices.com/reports/historical-data",
+  "endpoint": "https://www.niftyindices.com/BackPage/getHistoricaldatatabletoString",
+  "verification_at_utc": "2026-10-03T04:57:09.824367+00:00",
+  "first_date": "2006-07-14",
+  "last_date": "2026-10-01",
+  "tv_rows": 5000,
+  "official_rows": 5011,
+  "shared_dates": 5000,
+  "calendar_year_chunks": [
+    {
+      "year": 2006,
+      "rows": 117
+    },
+    {
+      "year": 2007,
+      "rows": 249
+    },
+    {
+      "year": 2008,
+      "rows": 246
+    },
+    {
+      "year": 2009,
+      "rows": 243
+    },
+    {
+      "year": 2010,
+      "rows": 252
+    },
+    {
+      "year": 2011,
+      "rows": 247
+    },
+    {
+      "year": 2012,
+      "rows": 251
+    },
+    {
+      "year": 2013,
+      "rows": 250
+    },
+    {
+      "year": 2014,
+      "rows": 244
+    },
+    {
+      "year": 2015,
+      "rows": 248
+    },
+    {
+      "year": 2016,
+      "rows": 247
+    },
+    {
+      "year": 2017,
+      "rows": 248
+    },
+    {
+      "year": 2018,
+      "rows": 246
+    },
+    {
+      "year": 2019,
+      "rows": 245
+    },
+    {
+      "year": 2020,
+      "rows": 252
+    },
+    {
+      "year": 2021,
+      "rows": 248
+    },
+    {
+      "year": 2022,
+      "rows": 248
+    },
+    {
+      "year": 2023,
+      "rows": 246
+    },
+    {
+      "year": 2024,
+      "rows": 249
+    },
+    {
+      "year": 2025,
+      "rows": 249
+    },
+    {
+      "year": 2026,
+      "rows": 186
+    }
+  ],
+  "dates_in_official_missing_from_tv": [
+    "2006-10-21",
+    "2009-10-17",
+    "2010-02-06",
+    "2012-01-07",
+    "2012-03-03",
+    "2012-04-28",
+    "2012-09-08",
+    "2013-05-11",
+    "2013-11-03",
+    "2014-03-22",
+    "2016-10-30"
+  ],
+  "dates_in_tv_missing_from_official": [],
+  "maximum_absolute_ohlc_difference_points": {
+    "open": 49.19980468999984,
+    "high": 62.84990233999997,
+    "low": 62.84995117000017,
+    "close": 48.69980468999984
+  },
+  "ohlc_mismatch_dates_above_0_011_points": [
+    "2006-11-16",
+    "2006-12-06",
+    "2006-12-07",
+    "2009-04-29",
+    "2009-05-18",
+    "2009-10-08",
+    "2013-04-12",
+    "2013-04-16",
+    "2013-11-11",
+    "2014-08-06",
+    "2015-11-11",
+    "2018-06-01",
+    "2018-11-07",
+    "2023-09-08"
+  ],
+  "calendar_match": false,
+  "all_ohlc_match_within_rounding_tolerance": false,
+  "volume_scope": "Official historical OHLC endpoint omits volume; daily archive spot checks separately found provider-volume differences",
+  "interpretation": "Reconciles this provider date sequence against published Nifty 500 history; not an independent reconstruction of all exchange session rules"
+}

@@ -1,0 +1,28 @@
+{
+  "seconds": 2.0464329999958863,
+  "device": "cpu",
+  "torch_threads": 4,
+  "configuration": {
+    "model": "pretrained_transformer",
+    "context": 60,
+    "volume": false
+  },
+  "details": {
+    "best_epoch": 2,
+    "pretraining_history": [
+      0.4725218899548054
+    ],
+    "training_history": [
+      {
+        "epoch": 1,
+        "training_cross_entropy": 1.6842724233865738
+      },
+      {
+        "epoch": 2,
+        "training_cross_entropy": 1.619028776884079
+      }
+    ],
+    "supervised_seconds": 0.45127669999783393,
+    "parameters": 20759
+  }
+}

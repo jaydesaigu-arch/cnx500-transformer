@@ -1,0 +1,17 @@
+data/raw/**
+data/processed/**
+models/**
+reports/local/**
+*.pt
+*.joblib
+*.pkl
+*.npz
+reports/source_spot_checks.json
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+build/
+dist/

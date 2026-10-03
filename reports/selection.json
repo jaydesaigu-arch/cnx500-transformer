@@ -1,0 +1,39 @@
+{
+  "run_id": "043fb073ab7666b43e03841c118780df9a891b88500b1afa1981a96493ff1ed7",
+  "data_sha256": "1a377c6466c46646c23d58a7413f8b67cf8e1091c3e8263cc29a57d232f71d57",
+  "selection_rule": "development mean macro-F1 equally across 3 folds and 3 horizons; deterministic ties",
+  "baseline": {
+    "config": {
+      "model": "histboost",
+      "context": 20,
+      "volume": false
+    },
+    "mean_development_macro_f1": 0.23519536507787553,
+    "mean_development_log_loss": 1.5869047660503073,
+    "fold_macro_f1": [
+      0.1973385943410102,
+      0.27470982180829845,
+      0.233537679084318
+    ],
+    "fixed_epochs": 20,
+    "total_seconds": 6.337782800008426
+  },
+  "neural": {
+    "config": {
+      "model": "transformer",
+      "context": 60,
+      "volume": false
+    },
+    "mean_development_macro_f1": 0.21486064942585403,
+    "mean_development_log_loss": 1.5739016729056212,
+    "fold_macro_f1": [
+      0.18970983943192457,
+      0.24118292785374065,
+      0.21368918099189682
+    ],
+    "fixed_epochs": 9,
+    "total_seconds": 52.85566889999609
+  },
+  "test_start": "2024-10-01",
+  "test_results_seen": false
+}

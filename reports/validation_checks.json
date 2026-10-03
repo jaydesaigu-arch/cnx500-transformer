@@ -1,0 +1,10 @@
+{
+  "outcome": "passed",
+  "evaluation_tables_recalculated": 375,
+  "development_evaluations": 123,
+  "holdout_predictions": 487,
+  "data_and_source_hashes_match": true,
+  "selection_hash_matches_frozen_holdout": true,
+  "purged_target_dates_checked": true,
+  "independent_arithmetic": "Recomputed F1, accuracy, balanced accuracy, ordinal error, extreme reversals from confusion counts without sklearn"
+}

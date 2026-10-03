@@ -1,0 +1,8 @@
+{
+  "checks_attempted": 6,
+  "checks_with_available_official_archives": 4,
+  "all_available_sample_ohlc_match_rounding_tolerance": true,
+  "maximum_absolute_relative_volume_difference": 0.040822070303297875,
+  "detailed_date_level_source_differences": "local-only, excluded from Git",
+  "scope": "Selected-date archive spot checks; full historical session/price reconciliation recorded separately"
+}

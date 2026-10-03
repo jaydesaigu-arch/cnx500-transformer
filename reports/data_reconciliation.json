@@ -1,0 +1,153 @@
+{
+  "created_at_utc": "2026-10-03T05:06:02.021845+00:00",
+  "official_source": "https://www.niftyindices.com/reports/historical-data",
+  "official_endpoint": "https://www.niftyindices.com/BackPage/getHistoricaldatatabletoString",
+  "original_tv_rows": 5000,
+  "canonical_rows": 5011,
+  "official_only_sessions_added": 11,
+  "official_only_dates": [
+    "2006-10-21",
+    "2009-10-17",
+    "2010-02-06",
+    "2012-01-07",
+    "2012-03-03",
+    "2012-04-28",
+    "2012-09-08",
+    "2013-05-11",
+    "2013-11-03",
+    "2014-03-22",
+    "2016-10-30"
+  ],
+  "shared_dates_with_material_ohlc_corrections": 12,
+  "material_ohlc_correction_dates": [
+    "2006-11-16",
+    "2006-12-06",
+    "2006-12-07",
+    "2009-10-08",
+    "2013-04-12",
+    "2013-04-16",
+    "2013-11-11",
+    "2014-08-06",
+    "2015-11-11",
+    "2018-06-01",
+    "2018-11-07",
+    "2023-09-08"
+  ],
+  "official_invalid_ohlc_fallback_count": 2,
+  "official_invalid_ohlc_fallback_dates": [
+    "2009-04-29",
+    "2009-05-18"
+  ],
+  "ohlc_policy": "Official published NSE OHLC where shape-valid; retain previously validated TV OHLC on two flagged official-inconsistent dates. Original TV CSV retained unchanged.",
+  "volume_policy": "Retain provider-specific TV volume on shared dates; zero denotes unavailable volume for official-only sessions",
+  "timestamp_policy": "09:15 Asia/Kolkata session-date anchors, not claimed actual special-session opening times",
+  "tv_csv_sha256": "a99c333ac69231f2a985d98a8396252512fa143233538512dca427356cf320f9",
+  "canonical_csv_sha256": "1a377c6466c46646c23d58a7413f8b67cf8e1091c3e8263cc29a57d232f71d57",
+  "official_chunks": [
+    {
+      "year": 2006,
+      "rows": 117,
+      "sha256": "d0c8b8ae5b49e846c954c486301054b53167464dbe591a12c26200c35251e4a1"
+    },
+    {
+      "year": 2007,
+      "rows": 249,
+      "sha256": "a9d434991b120859bc177f3cf672ea7a359aa823f3721040ef6a365dc4de9a16"
+    },
+    {
+      "year": 2008,
+      "rows": 246,
+      "sha256": "156a1ed16bd425c08ecc9f52272720e5c59418847f82798fc03c64eb25d3350b"
+    },
+    {
+      "year": 2009,
+      "rows": 243,
+      "sha256": "c267ec772af7412f306f01cf5f9849bb5d13fc82797787a42597f2a7a49a63c0"
+    },
+    {
+      "year": 2010,
+      "rows": 252,
+      "sha256": "1ce88ea95f5deaccd81993b496568ded1afe6e8a557c32cf64b45cf27c16448e"
+    },
+    {
+      "year": 2011,
+      "rows": 247,
+      "sha256": "3a578f29843b4be2807e89ba55898999a0ab54eb4560452a89ed3b6518c1d160"
+    },
+    {
+      "year": 2012,
+      "rows": 251,
+      "sha256": "c8b0dd5990483af68a7361221e3dc9d1a90921260ebd15885ba6264991b77a69"
+    },
+    {
+      "year": 2013,
+      "rows": 250,
+      "sha256": "f722f7431539dc7cd1ad0024c9aa02c506de93085d579917299598666b6b4164"
+    },
+    {
+      "year": 2014,
+      "rows": 244,
+      "sha256": "f470cc1ac49ae040edbf0b60611fb9bac3344cebce7bd25a9a8e091c4f16038a"
+    },
+    {
+      "year": 2015,
+      "rows": 248,
+      "sha256": "895cadb4236bcba023bab44c30e6546f5b93435fb19cc1dc49119d1bb4797ede"
+    },
+    {
+      "year": 2016,
+      "rows": 247,
+      "sha256": "ea5dc042e42f787427fbebee32bb9adb049d2d3f43a8172a08e1a5e8ea2dd662"
+    },
+    {
+      "year": 2017,
+      "rows": 248,
+      "sha256": "84fccf0ae058943ad9288b3bd2dd04bd4eec7f0c12a3e14ebbb2177cee7fcb36"
+    },
+    {
+      "year": 2018,
+      "rows": 246,
+      "sha256": "7f126725f1e85ecc7b194b2c8eaa941bf5621f1231cb2c0e738c33cd52bd7975"
+    },
+    {
+      "year": 2019,
+      "rows": 245,
+      "sha256": "c80346ef8ba607d1cdc6bcc87bcdae496180b3715cf795ad3bf56b1368ebb006"
+    },
+    {
+      "year": 2020,
+      "rows": 252,
+      "sha256": "b757b29a3764fc257325f0313f0df628abf21e0df09aa4a877f84f26967519dc"
+    },
+    {
+      "year": 2021,
+      "rows": 248,
+      "sha256": "0c2db0da0d30632fc301a36bbc97f5f734d687eef0958fad6beca7e4441a0752"
+    },
+    {
+      "year": 2022,
+      "rows": 248,
+      "sha256": "3b4c7274d3a620a0b4bea22c8c01e0b26e4a0bd48489b183b4c99cc69fd0ba9b"
+    },
+    {
+      "year": 2023,
+      "rows": 246,
+      "sha256": "84ac9bff3c31716df1a995388325d4d840cd1da3c2a343695fde7e9194649de2"
+    },
+    {
+      "year": 2024,
+      "rows": 249,
+      "sha256": "b1df2e12fbdae3d0969b552b6d3fddf1111d01806e3ecc74e45232879bf5bc6a"
+    },
+    {
+      "year": 2025,
+      "rows": 249,
+      "sha256": "f62c81b91e0e98217025b420f6c431193ffff44ec6e0e2151815092ae043bbc7"
+    },
+    {
+      "year": 2026,
+      "rows": 186,
+      "sha256": "4b1841267116d8ecd03a3fe1af7205f235e9df14e265c386165f9c6422ddfa6b"
+    }
+  ]
+}

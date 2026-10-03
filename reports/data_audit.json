@@ -1,0 +1,105 @@
+{
+  "symbol": "NSE:CNX500",
+  "source": "Official NSE historical OHLC/session dates joined with TradingView TVRemix volume",
+  "source_interval": "1D",
+  "requested_bar_limit": 5000,
+  "retrieved_date": "2026-10-03",
+  "retrieval_time_note": "Exact connector retrieval timestamp was not returned",
+  "csv_sha256": "1a377c6466c46646c23d58a7413f8b67cf8e1091c3e8263cc29a57d232f71d57",
+  "bars": 5011,
+  "first_date": "2006-07-14",
+  "last_date": "2026-10-01",
+  "volume_available_bars": 4826,
+  "volume_unavailable_bars": 185,
+  "first_positive_volume_date": "2007-03-29",
+  "weekday_sessions_present": {
+    "Wednesday": 1005,
+    "Tuesday": 1003,
+    "Monday": 998,
+    "Thursday": 998,
+    "Friday": 986,
+    "Saturday": 16,
+    "Sunday": 5
+  },
+  "calendar_gaps_over_four_days": [
+    {
+      "before": "2008-03-19",
+      "after": "2008-03-24",
+      "calendar_days": 5
+    },
+    {
+      "before": "2009-04-29",
+      "after": "2009-05-04",
+      "calendar_days": 5
+    },
+    {
+      "before": "2009-12-24",
+      "after": "2009-12-29",
+      "calendar_days": 5
+    },
+    {
+      "before": "2012-04-04",
+      "after": "2012-04-09",
+      "calendar_days": 5
+    },
+    {
+      "before": "2014-10-01",
+      "after": "2014-10-07",
+      "calendar_days": 6
+    },
+    {
+      "before": "2015-04-01",
+      "after": "2015-04-06",
+      "calendar_days": 5
+    },
+    {
+      "before": "2016-03-23",
+      "after": "2016-03-28",
+      "calendar_days": 5
+    },
+    {
+      "before": "2016-04-13",
+      "after": "2016-04-18",
+      "calendar_days": 5
+    },
+    {
+      "before": "2018-03-28",
+      "after": "2018-04-02",
+      "calendar_days": 5
+    },
+    {
+      "before": "2022-04-13",
+      "after": "2022-04-18",
+      "calendar_days": 5
+    }
+  ],
+  "completeness": "Aligned with official published Nifty 500 historical index sessions; exchange session rules not independently reconstructed",
+  "volume_semantics": "UNVERIFIED provider index-volume field; do not interpret as tradable index share volume",
+  "ohlc_validation": "passed",
+  "unique_ascending_dates": true,
+  "common_eligible_origins": 4690,
+  "latest_ten_origins_excluded_from_joint_evaluation": true,
+  "class_counts_development_only": {
+    "3": {
+      "Strong Bearish": 654,
+      "Bearish": 781,
+      "Neutral": 793,
+      "Bullish": 1167,
+      "Strong Bullish": 798
+    },
+    "5": {
+      "Strong Bearish": 627,
+      "Bearish": 796,
+      "Neutral": 732,
+      "Bullish": 1186,
+      "Strong Bullish": 852
+    },
+    "10": {
+      "Strong Bearish": 598,
+      "Bearish": 699,
+      "Neutral": 774,
+      "Bullish": 1249,
+      "Strong Bullish": 873
+    }
+  }
+}

@@ -1,0 +1,1595 @@
+{
+  "selection_sha256": "fe24063668ed789df089fd40dd21198870c6a1f07fc536ee5ff7dded5405805b",
+  "test_start": "2024-10-01",
+  "test_end_origin": "2026-09-17",
+  "test_samples": 487,
+  "static_weights": true,
+  "roles": {
+    "baseline": {
+      "config": {
+        "model": "histboost",
+        "context": 20,
+        "volume": false
+      },
+      "training": {
+        "fixed_epochs": 20,
+        "fitting_origins": 4193,
+        "last_fitting_origin": "2024-09-16",
+        "last_supervised_target_date": "2024-09-30"
+      },
+      "metrics": {
+        "3": {
+          "samples": 487,
+          "accuracy": 0.2464065708418891,
+          "macro_f1": 0.23107828221580343,
+          "balanced_accuracy": 0.2517956919386276,
+          "log_loss": 1.5967402319251471,
+          "brier_sum_over_classes": 0.7958928213642631,
+          "ece_10_equal_width_bins": 0.07634485864553103,
+          "mean_absolute_ordinal_error": 1.4558521560574949,
+          "extreme_reversal_frequency": 0.06365503080082136,
+          "class_support": {
+            "Strong Bearish": 85,
+            "Bearish": 110,
+            "Neutral": 107,
+            "Bullish": 100,
+            "Strong Bullish": 85
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 55,
+            "Bearish": 55,
+            "Neutral": 26,
+            "Bullish": 250,
+            "Strong Bullish": 101
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              16,
+              9,
+              1,
+              42,
+              17
+            ],
+            [
+              7,
+              16,
+              9,
+              60,
+              18
+            ],
+            [
+              8,
+              12,
+              9,
+              62,
+              16
+            ],
+            [
+              10,
+              14,
+              5,
+              50,
+              21
+            ],
+            [
+              14,
+              4,
+              2,
+              36,
+              29
+            ]
+          ]
+        },
+        "5": {
+          "samples": 487,
+          "accuracy": 0.24229979466119098,
+          "macro_f1": 0.21970171197840163,
+          "balanced_accuracy": 0.258246712547622,
+          "log_loss": 1.5748654870885916,
+          "brier_sum_over_classes": 0.7876342553201674,
+          "ece_10_equal_width_bins": 0.09017263225239401,
+          "mean_absolute_ordinal_error": 1.5544147843942504,
+          "extreme_reversal_frequency": 0.08829568788501027,
+          "class_support": {
+            "Strong Bearish": 79,
+            "Bearish": 125,
+            "Neutral": 103,
+            "Bullish": 100,
+            "Strong Bullish": 80
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 68,
+            "Bearish": 38,
+            "Neutral": 16,
+            "Bullish": 202,
+            "Strong Bullish": 163
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              17,
+              5,
+              2,
+              26,
+              29
+            ],
+            [
+              12,
+              15,
+              5,
+              58,
+              35
+            ],
+            [
+              11,
+              9,
+              5,
+              53,
+              25
+            ],
+            [
+              14,
+              6,
+              3,
+              42,
+              35
+            ],
+            [
+              14,
+              3,
+              1,
+              23,
+              39
+            ]
+          ]
+        },
+        "10": {
+          "samples": 487,
+          "accuracy": 0.2792607802874743,
+          "macro_f1": 0.2261944927009359,
+          "balanced_accuracy": 0.3032626571614655,
+          "log_loss": 1.59070119237944,
+          "brier_sum_over_classes": 0.7932303633160495,
+          "ece_10_equal_width_bins": 0.10343440542288522,
+          "mean_absolute_ordinal_error": 1.4969199178644763,
+          "extreme_reversal_frequency": 0.07186858316221766,
+          "class_support": {
+            "Strong Bearish": 96,
+            "Bearish": 119,
+            "Neutral": 98,
+            "Bullish": 95,
+            "Strong Bullish": 79
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 50,
+            "Bearish": 21,
+            "Neutral": 5,
+            "Bullish": 240,
+            "Strong Bullish": 171
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              19,
+              9,
+              2,
+              36,
+              30
+            ],
+            [
+              11,
+              6,
+              1,
+              55,
+              46
+            ],
+            [
+              7,
+              3,
+              2,
+              60,
+              26
+            ],
+            [
+              8,
+              3,
+              0,
+              62,
+              22
+            ],
+            [
+              5,
+              0,
+              0,
+              27,
+              47
+            ]
+          ]
+        },
+        "mean_macro_f1": 0.22565816229838032
+      },
+      "by_year": {
+        "2024": {
+          "3": {
+            "samples": 62,
+            "accuracy": 0.1935483870967742,
+            "macro_f1": 0.1362193362193362,
+            "balanced_accuracy": 0.18333333333333332,
+            "log_loss": 1.6966219779814649,
+            "brier_sum_over_classes": 0.8266661101318682,
+            "ece_10_equal_width_bins": 0.1182791621341046,
+            "mean_absolute_ordinal_error": 1.596774193548387,
+            "extreme_reversal_frequency": 0.04838709677419355,
+            "class_support": {
+              "Strong Bearish": 15,
+              "Bearish": 8,
+              "Neutral": 17,
+              "Bullish": 12,
+              "Strong Bullish": 10
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 18,
+              "Bearish": 0,
+              "Neutral": 0,
+              "Bullish": 33,
+              "Strong Bullish": 11
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                6,
+                0,
+                0,
+                9,
+                0
+              ],
+              [
+                2,
+                0,
+                0,
+                3,
+                3
+              ],
+              [
+                4,
+                0,
+                0,
+                10,
+                3
+              ],
+              [
+                3,
+                0,
+                0,
+                5,
+                4
+              ],
+              [
+                3,
+                0,
+                0,
+                6,
+                1
+              ]
+            ]
+          },
+          "5": {
+            "samples": 62,
+            "accuracy": 0.22580645161290322,
+            "macro_f1": 0.18939518336070058,
+            "balanced_accuracy": 0.2276589423648247,
+            "log_loss": 1.6262163553825413,
+            "brier_sum_over_classes": 0.8020140034644011,
+            "ece_10_equal_width_bins": 0.07492843844848819,
+            "mean_absolute_ordinal_error": 1.7258064516129032,
+            "extreme_reversal_frequency": 0.12903225806451613,
+            "class_support": {
+              "Strong Bearish": 17,
+              "Bearish": 11,
+              "Neutral": 13,
+              "Bullish": 12,
+              "Strong Bullish": 9
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 15,
+              "Bearish": 3,
+              "Neutral": 0,
+              "Bullish": 17,
+              "Strong Bullish": 27
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                6,
+                2,
+                0,
+                5,
+                4
+              ],
+              [
+                2,
+                1,
+                0,
+                5,
+                3
+              ],
+              [
+                1,
+                0,
+                0,
+                3,
+                9
+              ],
+              [
+                2,
+                0,
+                0,
+                3,
+                7
+              ],
+              [
+                4,
+                0,
+                0,
+                1,
+                4
+              ]
+            ]
+          },
+          "10": {
+            "samples": 62,
+            "accuracy": 0.20967741935483872,
+            "macro_f1": 0.18103892069409314,
+            "balanced_accuracy": 0.2255757575757576,
+            "log_loss": 1.6810454992434536,
+            "brier_sum_over_classes": 0.8205686265934392,
+            "ece_10_equal_width_bins": 0.14004528526655957,
+            "mean_absolute_ordinal_error": 1.4838709677419355,
+            "extreme_reversal_frequency": 0.03225806451612903,
+            "class_support": {
+              "Strong Bearish": 25,
+              "Bearish": 10,
+              "Neutral": 13,
+              "Bullish": 3,
+              "Strong Bullish": 11
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 12,
+              "Bearish": 11,
+              "Neutral": 0,
+              "Bullish": 26,
+              "Strong Bullish": 13
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                6,
+                8,
+                0,
+                10,
+                1
+              ],
+              [
+                2,
+                1,
+                0,
+                5,
+                2
+              ],
+              [
+                2,
+                2,
+                0,
+                5,
+                4
+              ],
+              [
+                1,
+                0,
+                0,
+                1,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                5,
+                5
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.16888448009137666
+        },
+        "2025": {
+          "3": {
+            "samples": 249,
+            "accuracy": 0.24497991967871485,
+            "macro_f1": 0.21885802425660997,
+            "balanced_accuracy": 0.2343282609707292,
+            "log_loss": 1.5895302697121092,
+            "brier_sum_over_classes": 0.7948715813775442,
+            "ece_10_equal_width_bins": 0.07489424389998903,
+            "mean_absolute_ordinal_error": 1.4457831325301205,
+            "extreme_reversal_frequency": 0.05622489959839357,
+            "class_support": {
+              "Strong Bearish": 38,
+              "Bearish": 58,
+              "Neutral": 50,
+              "Bullish": 52,
+              "Strong Bullish": 51
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 19,
+              "Bearish": 42,
+              "Neutral": 12,
+              "Bullish": 124,
+              "Strong Bullish": 52
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                2,
+                8,
+                0,
+                22,
+                6
+              ],
+              [
+                2,
+                13,
+                5,
+                29,
+                9
+              ],
+              [
+                2,
+                7,
+                5,
+                27,
+                9
+              ],
+              [
+                5,
+                10,
+                2,
+                24,
+                11
+              ],
+              [
+                8,
+                4,
+                0,
+                22,
+                17
+              ]
+            ]
+          },
+          "5": {
+            "samples": 249,
+            "accuracy": 0.21686746987951808,
+            "macro_f1": 0.17540530642002355,
+            "balanced_accuracy": 0.21134897195206834,
+            "log_loss": 1.5812824633986693,
+            "brier_sum_over_classes": 0.7920038895870206,
+            "ece_10_equal_width_bins": 0.13934149013851813,
+            "mean_absolute_ordinal_error": 1.6385542168674698,
+            "extreme_reversal_frequency": 0.08032128514056225,
+            "class_support": {
+              "Strong Bearish": 34,
+              "Bearish": 59,
+              "Neutral": 53,
+              "Bullish": 53,
+              "Strong Bullish": 50
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 35,
+              "Bearish": 14,
+              "Neutral": 7,
+              "Bullish": 110,
+              "Strong Bullish": 83
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                2,
+                2,
+                2,
+                18,
+                10
+              ],
+              [
+                3,
+                6,
+                3,
+                27,
+                20
+              ],
+              [
+                8,
+                2,
+                1,
+                32,
+                10
+              ],
+              [
+                12,
+                2,
+                1,
+                20,
+                18
+              ],
+              [
+                10,
+                2,
+                0,
+                13,
+                25
+              ]
+            ]
+          },
+          "10": {
+            "samples": 249,
+            "accuracy": 0.30120481927710846,
+            "macro_f1": 0.211864854543309,
+            "balanced_accuracy": 0.28938355706939156,
+            "log_loss": 1.581703110567873,
+            "brier_sum_over_classes": 0.782810831122275,
+            "ece_10_equal_width_bins": 0.08667287261129127,
+            "mean_absolute_ordinal_error": 1.4899598393574298,
+            "extreme_reversal_frequency": 0.060240963855421686,
+            "class_support": {
+              "Strong Bearish": 30,
+              "Bearish": 69,
+              "Neutral": 42,
+              "Bullish": 62,
+              "Strong Bullish": 46
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 19,
+              "Bearish": 3,
+              "Neutral": 5,
+              "Bullish": 109,
+              "Strong Bullish": 113
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                2,
+                1,
+                2,
+                13,
+                12
+              ],
+              [
+                5,
+                2,
+                1,
+                30,
+                31
+              ],
+              [
+                2,
+                0,
+                2,
+                22,
+                16
+              ],
+              [
+                7,
+                0,
+                0,
+                35,
+                20
+              ],
+              [
+                3,
+                0,
+                0,
+                9,
+                34
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.2020427284066475
+        },
+        "2026": {
+          "3": {
+            "samples": 176,
+            "accuracy": 0.26704545454545453,
+            "macro_f1": 0.2507662822138283,
+            "balanced_accuracy": 0.29196969696969693,
+            "log_loss": 1.5717550747407991,
+            "brier_sum_over_classes": 0.7864970534841579,
+            "ece_10_equal_width_bins": 0.08613848737316293,
+            "mean_absolute_ordinal_error": 1.4204545454545454,
+            "extreme_reversal_frequency": 0.07954545454545454,
+            "class_support": {
+              "Strong Bearish": 32,
+              "Bearish": 44,
+              "Neutral": 40,
+              "Bullish": 36,
+              "Strong Bullish": 24
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 18,
+              "Bearish": 13,
+              "Neutral": 14,
+              "Bullish": 93,
+              "Strong Bullish": 38
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                8,
+                1,
+                1,
+                11,
+                11
+              ],
+              [
+                3,
+                3,
+                4,
+                28,
+                6
+              ],
+              [
+                2,
+                5,
+                4,
+                25,
+                4
+              ],
+              [
+                2,
+                4,
+                3,
+                21,
+                6
+              ],
+              [
+                3,
+                0,
+                2,
+                8,
+                11
+              ]
+            ]
+          },
+          "5": {
+            "samples": 176,
+            "accuracy": 0.2840909090909091,
+            "macro_f1": 0.2782937045637274,
+            "balanced_accuracy": 0.3188077688077688,
+            "log_loss": 1.547697413591807,
+            "brier_sum_over_classes": 0.7763866228350031,
+            "ece_10_equal_width_bins": 0.037484072650935875,
+            "mean_absolute_ordinal_error": 1.375,
+            "extreme_reversal_frequency": 0.08522727272727272,
+            "class_support": {
+              "Strong Bearish": 28,
+              "Bearish": 55,
+              "Neutral": 37,
+              "Bullish": 35,
+              "Strong Bullish": 21
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 18,
+              "Bearish": 21,
+              "Neutral": 9,
+              "Bullish": 75,
+              "Strong Bullish": 53
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                9,
+                1,
+                0,
+                3,
+                15
+              ],
+              [
+                7,
+                8,
+                2,
+                26,
+                12
+              ],
+              [
+                2,
+                7,
+                4,
+                18,
+                6
+              ],
+              [
+                0,
+                4,
+                2,
+                19,
+                10
+              ],
+              [
+                0,
+                1,
+                1,
+                9,
+                10
+              ]
+            ]
+          },
+          "10": {
+            "samples": 176,
+            "accuracy": 0.2727272727272727,
+            "macro_f1": 0.22366347929383812,
+            "balanced_accuracy": 0.31471914264597195,
+            "log_loss": 1.571605597751664,
+            "brier_sum_over_classes": 0.7983411087311157,
+            "ece_10_equal_width_bins": 0.11696214640265755,
+            "mean_absolute_ordinal_error": 1.5113636363636365,
+            "extreme_reversal_frequency": 0.10227272727272728,
+            "class_support": {
+              "Strong Bearish": 41,
+              "Bearish": 40,
+              "Neutral": 43,
+              "Bullish": 30,
+              "Strong Bullish": 22
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 19,
+              "Bearish": 7,
+              "Neutral": 0,
+              "Bullish": 105,
+              "Strong Bullish": 45
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                11,
+                0,
+                0,
+                13,
+                17
+              ],
+              [
+                4,
+                3,
+                0,
+                20,
+                13
+              ],
+              [
+                3,
+                1,
+                0,
+                33,
+                6
+              ],
+              [
+                0,
+                3,
+                0,
+                26,
+                1
+              ],
+              [
+                1,
+                0,
+                0,
+                13,
+                8
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.2509078220237979
+        }
+      }
+    },
+    "neural": {
+      "config": {
+        "model": "transformer",
+        "context": 60,
+        "volume": false
+      },
+      "training": {
+        "full_refit": {
+          "best_epoch": 9,
+          "pretraining_history": [],
+          "training_history": [
+            {
+              "epoch": 1,
+              "training_cross_entropy": 1.6217794201590798
+            },
+            {
+              "epoch": 2,
+              "training_cross_entropy": 1.5724920142780652
+            },
+            {
+              "epoch": 3,
+              "training_cross_entropy": 1.5630456751043147
+            },
+            {
+              "epoch": 4,
+              "training_cross_entropy": 1.5562953370990176
+            },
+            {
+              "epoch": 5,
+              "training_cross_entropy": 1.5500755418430676
+            },
+            {
+              "epoch": 6,
+              "training_cross_entropy": 1.5444187359376387
+            },
+            {
+              "epoch": 7,
+              "training_cross_entropy": 1.5374591458927502
+            },
+            {
+              "epoch": 8,
+              "training_cross_entropy": 1.5292187531789143
+            },
+            {
+              "epoch": 9,
+              "training_cross_entropy": 1.5199260820042004
+            }
+          ],
+          "supervised_seconds": 16.253298299998278,
+          "parameters": 20759
+        },
+        "fixed_epochs": 9,
+        "fitting_origins": 4193,
+        "last_fitting_origin": "2024-09-16",
+        "last_supervised_target_date": "2024-09-30"
+      },
+      "metrics": {
+        "3": {
+          "samples": 487,
+          "accuracy": 0.24435318275154005,
+          "macro_f1": 0.21812059135071377,
+          "balanced_accuracy": 0.2515788894997251,
+          "log_loss": 1.6001604101509803,
+          "brier_sum_over_classes": 0.8001463341663008,
+          "ece_10_equal_width_bins": 0.06480901948220666,
+          "mean_absolute_ordinal_error": 1.517453798767967,
+          "extreme_reversal_frequency": 0.09240246406570841,
+          "class_support": {
+            "Strong Bearish": 85,
+            "Bearish": 110,
+            "Neutral": 107,
+            "Bullish": 100,
+            "Strong Bullish": 85
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 67,
+            "Bearish": 1,
+            "Neutral": 56,
+            "Bullish": 242,
+            "Strong Bullish": 121
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              19,
+              0,
+              2,
+              35,
+              29
+            ],
+            [
+              11,
+              0,
+              13,
+              64,
+              22
+            ],
+            [
+              9,
+              0,
+              23,
+              57,
+              18
+            ],
+            [
+              12,
+              0,
+              15,
+              49,
+              24
+            ],
+            [
+              16,
+              1,
+              3,
+              37,
+              28
+            ]
+          ]
+        },
+        "5": {
+          "samples": 487,
+          "accuracy": 0.22381930184804927,
+          "macro_f1": 0.17949363515976996,
+          "balanced_accuracy": 0.24674807668673954,
+          "log_loss": 1.613285290391772,
+          "brier_sum_over_classes": 0.807141734525087,
+          "ece_10_equal_width_bins": 0.10329308871861842,
+          "mean_absolute_ordinal_error": 1.700205338809035,
+          "extreme_reversal_frequency": 0.13141683778234087,
+          "class_support": {
+            "Strong Bearish": 79,
+            "Bearish": 125,
+            "Neutral": 103,
+            "Bullish": 100,
+            "Strong Bullish": 80
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 61,
+            "Bearish": 13,
+            "Neutral": 6,
+            "Bullish": 188,
+            "Strong Bullish": 219
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              16,
+              0,
+              0,
+              14,
+              49
+            ],
+            [
+              14,
+              3,
+              0,
+              54,
+              54
+            ],
+            [
+              8,
+              4,
+              1,
+              56,
+              34
+            ],
+            [
+              8,
+              4,
+              3,
+              46,
+              39
+            ],
+            [
+              15,
+              2,
+              2,
+              18,
+              43
+            ]
+          ]
+        },
+        "10": {
+          "samples": 487,
+          "accuracy": 0.26899383983572894,
+          "macro_f1": 0.1996750096264921,
+          "balanced_accuracy": 0.2966699977792583,
+          "log_loss": 1.617931708896752,
+          "brier_sum_over_classes": 0.8073997709119718,
+          "ece_10_equal_width_bins": 0.08447466661981919,
+          "mean_absolute_ordinal_error": 1.6447638603696098,
+          "extreme_reversal_frequency": 0.1273100616016427,
+          "class_support": {
+            "Strong Bearish": 96,
+            "Bearish": 119,
+            "Neutral": 98,
+            "Bullish": 95,
+            "Strong Bullish": 79
+          },
+          "predicted_class_counts": {
+            "Strong Bearish": 63,
+            "Bearish": 4,
+            "Neutral": 0,
+            "Bullish": 205,
+            "Strong Bullish": 215
+          },
+          "confusion_matrix_true_rows_predicted_columns": [
+            [
+              20,
+              0,
+              0,
+              25,
+              51
+            ],
+            [
+              19,
+              0,
+              0,
+              47,
+              53
+            ],
+            [
+              8,
+              1,
+              0,
+              56,
+              33
+            ],
+            [
+              5,
+              1,
+              0,
+              61,
+              28
+            ],
+            [
+              11,
+              2,
+              0,
+              16,
+              50
+            ]
+          ]
+        },
+        "mean_macro_f1": 0.19909641204565862
+      },
+      "by_year": {
+        "2024": {
+          "3": {
+            "samples": 62,
+            "accuracy": 0.16129032258064516,
+            "macro_f1": 0.09954867827208252,
+            "balanced_accuracy": 0.18,
+            "log_loss": 1.6643538006701382,
+            "brier_sum_over_classes": 0.8204690777751477,
+            "ece_10_equal_width_bins": 0.16214074767487918,
+            "mean_absolute_ordinal_error": 1.7903225806451613,
+            "extreme_reversal_frequency": 0.0967741935483871,
+            "class_support": {
+              "Strong Bearish": 15,
+              "Bearish": 8,
+              "Neutral": 17,
+              "Bullish": 12,
+              "Strong Bullish": 10
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 4,
+              "Bearish": 0,
+              "Neutral": 0,
+              "Bullish": 35,
+              "Strong Bullish": 23
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                0,
+                0,
+                0,
+                11,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                4,
+                4
+              ],
+              [
+                2,
+                0,
+                0,
+                10,
+                5
+              ],
+              [
+                0,
+                0,
+                0,
+                6,
+                6
+              ],
+              [
+                2,
+                0,
+                0,
+                4,
+                4
+              ]
+            ]
+          },
+          "5": {
+            "samples": 62,
+            "accuracy": 0.20967741935483872,
+            "macro_f1": 0.15427946404156412,
+            "balanced_accuracy": 0.24575163398692812,
+            "log_loss": 1.6826607477004945,
+            "brier_sum_over_classes": 0.8294859461549893,
+            "ece_10_equal_width_bins": 0.11653489757628327,
+            "mean_absolute_ordinal_error": 1.9838709677419355,
+            "extreme_reversal_frequency": 0.22580645161290322,
+            "class_support": {
+              "Strong Bearish": 17,
+              "Bearish": 11,
+              "Neutral": 13,
+              "Bullish": 12,
+              "Strong Bullish": 9
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 6,
+              "Bearish": 0,
+              "Neutral": 0,
+              "Bullish": 12,
+              "Strong Bullish": 44
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                2,
+                0,
+                0,
+                1,
+                14
+              ],
+              [
+                1,
+                0,
+                0,
+                2,
+                8
+              ],
+              [
+                2,
+                0,
+                0,
+                3,
+                8
+              ],
+              [
+                1,
+                0,
+                0,
+                4,
+                7
+              ],
+              [
+                0,
+                0,
+                0,
+                2,
+                7
+              ]
+            ]
+          },
+          "10": {
+            "samples": 62,
+            "accuracy": 0.22580645161290322,
+            "macro_f1": 0.15,
+            "balanced_accuracy": 0.25212121212121213,
+            "log_loss": 1.6541055522828407,
+            "brier_sum_over_classes": 0.8126446153305007,
+            "ece_10_equal_width_bins": 0.14913271596332714,
+            "mean_absolute_ordinal_error": 1.967741935483871,
+            "extreme_reversal_frequency": 0.16129032258064516,
+            "class_support": {
+              "Strong Bearish": 25,
+              "Bearish": 10,
+              "Neutral": 13,
+              "Bullish": 3,
+              "Strong Bullish": 11
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 8,
+              "Bearish": 0,
+              "Neutral": 0,
+              "Bullish": 21,
+              "Strong Bullish": 33
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                5,
+                0,
+                0,
+                10,
+                10
+              ],
+              [
+                1,
+                0,
+                0,
+                5,
+                4
+              ],
+              [
+                2,
+                0,
+                0,
+                2,
+                9
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                0,
+                0,
+                3,
+                8
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.13460938077121554
+        },
+        "2025": {
+          "3": {
+            "samples": 249,
+            "accuracy": 0.26907630522088355,
+            "macro_f1": 0.2477896529318187,
+            "balanced_accuracy": 0.2792415654520918,
+            "log_loss": 1.6001400810036057,
+            "brier_sum_over_classes": 0.799451565906315,
+            "ece_10_equal_width_bins": 0.08956675040567755,
+            "mean_absolute_ordinal_error": 1.4417670682730923,
+            "extreme_reversal_frequency": 0.08032128514056225,
+            "class_support": {
+              "Strong Bearish": 38,
+              "Bearish": 58,
+              "Neutral": 50,
+              "Bullish": 52,
+              "Strong Bullish": 51
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 43,
+              "Bearish": 1,
+              "Neutral": 26,
+              "Bullish": 122,
+              "Strong Bullish": 57
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                13,
+                0,
+                0,
+                14,
+                11
+              ],
+              [
+                8,
+                0,
+                5,
+                37,
+                8
+              ],
+              [
+                4,
+                0,
+                12,
+                25,
+                9
+              ],
+              [
+                9,
+                0,
+                6,
+                25,
+                12
+              ],
+              [
+                9,
+                1,
+                3,
+                21,
+                17
+              ]
+            ]
+          },
+          "5": {
+            "samples": 249,
+            "accuracy": 0.21285140562248997,
+            "macro_f1": 0.17474799636923039,
+            "balanced_accuracy": 0.2215365977539081,
+            "log_loss": 1.610312724125127,
+            "brier_sum_over_classes": 0.8066724893178443,
+            "ece_10_equal_width_bins": 0.11389158105887831,
+            "mean_absolute_ordinal_error": 1.6184738955823292,
+            "extreme_reversal_frequency": 0.10040160642570281,
+            "class_support": {
+              "Strong Bearish": 34,
+              "Bearish": 59,
+              "Neutral": 53,
+              "Bullish": 53,
+              "Strong Bullish": 50
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 37,
+              "Bearish": 7,
+              "Neutral": 5,
+              "Bullish": 96,
+              "Strong Bullish": 104
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                8,
+                0,
+                0,
+                12,
+                14
+              ],
+              [
+                10,
+                2,
+                0,
+                23,
+                24
+              ],
+              [
+                3,
+                1,
+                1,
+                31,
+                17
+              ],
+              [
+                5,
+                3,
+                2,
+                18,
+                25
+              ],
+              [
+                11,
+                1,
+                2,
+                12,
+                24
+              ]
+            ]
+          },
+          "10": {
+            "samples": 249,
+            "accuracy": 0.285140562248996,
+            "macro_f1": 0.2044016290726817,
+            "balanced_accuracy": 0.2879008882655446,
+            "log_loss": 1.6266872677490534,
+            "brier_sum_over_classes": 0.8055504483586791,
+            "ece_10_equal_width_bins": 0.06947214117971677,
+            "mean_absolute_ordinal_error": 1.534136546184739,
+            "extreme_reversal_frequency": 0.06827309236947791,
+            "class_support": {
+              "Strong Bearish": 30,
+              "Bearish": 69,
+              "Neutral": 42,
+              "Bullish": 62,
+              "Strong Bullish": 46
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 34,
+              "Bearish": 3,
+              "Neutral": 0,
+              "Bullish": 90,
+              "Strong Bullish": 122
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                7,
+                0,
+                0,
+                12,
+                11
+              ],
+              [
+                13,
+                0,
+                0,
+                19,
+                37
+              ],
+              [
+                3,
+                1,
+                0,
+                19,
+                19
+              ],
+              [
+                5,
+                0,
+                0,
+                33,
+                24
+              ],
+              [
+                6,
+                2,
+                0,
+                7,
+                31
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.20897975945791025
+        },
+        "2026": {
+          "3": {
+            "samples": 176,
+            "accuracy": 0.23863636363636365,
+            "macro_f1": 0.21159204431931705,
+            "balanced_accuracy": 0.25083333333333335,
+            "log_loss": 1.5775755905231874,
+            "brier_sum_over_classes": 0.7939701250355505,
+            "ece_10_equal_width_bins": 0.07368198545200018,
+            "mean_absolute_ordinal_error": 1.5284090909090908,
+            "extreme_reversal_frequency": 0.10795454545454546,
+            "class_support": {
+              "Strong Bearish": 32,
+              "Bearish": 44,
+              "Neutral": 40,
+              "Bullish": 36,
+              "Strong Bullish": 24
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 20,
+              "Bearish": 0,
+              "Neutral": 30,
+              "Bullish": 85,
+              "Strong Bullish": 41
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                6,
+                0,
+                2,
+                10,
+                14
+              ],
+              [
+                3,
+                0,
+                8,
+                23,
+                10
+              ],
+              [
+                3,
+                0,
+                11,
+                22,
+                4
+              ],
+              [
+                3,
+                0,
+                9,
+                18,
+                6
+              ],
+              [
+                5,
+                0,
+                0,
+                12,
+                7
+              ]
+            ]
+          },
+          "5": {
+            "samples": 176,
+            "accuracy": 0.24431818181818182,
+            "macro_f1": 0.19438346400570206,
+            "balanced_accuracy": 0.2979220779220779,
+            "log_loss": 1.5930517145238958,
+            "brier_sum_over_classes": 0.7999343534770724,
+            "ece_10_equal_width_bins": 0.08363390268509602,
+            "mean_absolute_ordinal_error": 1.7159090909090908,
+            "extreme_reversal_frequency": 0.14204545454545456,
+            "class_support": {
+              "Strong Bearish": 28,
+              "Bearish": 55,
+              "Neutral": 37,
+              "Bullish": 35,
+              "Strong Bullish": 21
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 18,
+              "Bearish": 6,
+              "Neutral": 1,
+              "Bullish": 80,
+              "Strong Bullish": 71
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                6,
+                0,
+                0,
+                1,
+                21
+              ],
+              [
+                3,
+                1,
+                0,
+                29,
+                22
+              ],
+              [
+                3,
+                3,
+                0,
+                22,
+                9
+              ],
+              [
+                2,
+                1,
+                1,
+                24,
+                7
+              ],
+              [
+                4,
+                1,
+                0,
+                4,
+                12
+              ]
+            ]
+          },
+          "10": {
+            "samples": 176,
+            "accuracy": 0.26136363636363635,
+            "macro_f1": 0.1923682140047207,
+            "balanced_accuracy": 0.31902439024390244,
+            "log_loss": 1.5928015245549305,
+            "brier_sum_over_classes": 0.8081685263768642,
+            "ece_10_equal_width_bins": 0.10887180402060254,
+            "mean_absolute_ordinal_error": 1.6875,
+            "extreme_reversal_frequency": 0.19886363636363635,
+            "class_support": {
+              "Strong Bearish": 41,
+              "Bearish": 40,
+              "Neutral": 43,
+              "Bullish": 30,
+              "Strong Bullish": 22
+            },
+            "predicted_class_counts": {
+              "Strong Bearish": 21,
+              "Bearish": 1,
+              "Neutral": 0,
+              "Bullish": 94,
+              "Strong Bullish": 60
+            },
+            "confusion_matrix_true_rows_predicted_columns": [
+              [
+                8,
+                0,
+                0,
+                3,
+                30
+              ],
+              [
+                5,
+                0,
+                0,
+                23,
+                12
+              ],
+              [
+                3,
+                0,
+                0,
+                35,
+                5
+              ],
+              [
+                0,
+                1,
+                0,
+                27,
+                2
+              ],
+              [
+                5,
+                0,
+                0,
+                6,
+                11
+              ]
+            ]
+          },
+          "mean_macro_f1": 0.1994479074432466
+        }
+      }
+    }
+  }
+}

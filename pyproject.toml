@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cnx500-transformer"
+version = "0.1.0"
+description = "CPU time-series Transformer research for Nifty 500 trend classification"
+requires-python = ">=3.12"
+dependencies = ["numpy", "pandas", "scikit-learn", "torch", "matplotlib"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+cnx500 = "cnx500.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
